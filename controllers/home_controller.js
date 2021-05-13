@@ -9,7 +9,7 @@ module.exports.getHome = (req, res) => {
 	}
 };
 
-module.exports.postHome = async (req, res) => {
+module.exports.submitForm = async (req, res) => {
 	try {
 		const { name, email, message } = req.body;
 		console.log({ name, email, message });

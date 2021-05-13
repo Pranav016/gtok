@@ -1,11 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-// acquiring controllers
+// acquiring routers and controllers
 const homeController = require('../controllers/home_controller');
 
 // middleware
 router.get('/', homeController.getHome);
-router.post('/', homeController.postHome);
+router.post('/', homeController.submitForm);
 
 module.exports = router;
