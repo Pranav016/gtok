@@ -3,7 +3,7 @@ const firestore = firebase.firestore();
 
 module.exports.getHome = (req, res) => {
 	try {
-		res.render('home.html');
+		return res.render('home.html');
 	} catch (err) {
 		res.status(400).send(err.message);
 	}
