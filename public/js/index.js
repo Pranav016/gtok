@@ -20,6 +20,9 @@ $(document).ready(() => {
 					text: 'Thank you for filling the form!',
 					icon: 'success',
 				});
+				$('#name').val('');
+				$('#email').val('');
+				$('#message').val('');
 			},
 			error: (err) => {
 				swal({
