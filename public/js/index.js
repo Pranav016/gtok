@@ -4,7 +4,7 @@ $(document).ready(() => {
 		const name = $('#name').val();
 		const email = $('#email').val();
 		const message = $('#message').val();
-		console.log({ name, email, message });
+		// console.log({ name, email, message });
 		$.ajax({
 			url: '/',
 			data: {

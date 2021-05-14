@@ -15,6 +15,10 @@ body {
 	background-color: var(--color-primary);
 }
 
+.btn:hover {
+	background-color: var(--color-secondary);
+}
+
 .card {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -90,6 +94,11 @@ body {
 
 #section3 .row {
 	margin: 35vh 0;
+}
+
+#section3 img {
+	height: 400px;
+	width: 400px;
 }
 
 /* footer styles */
